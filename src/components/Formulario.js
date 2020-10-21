@@ -7,7 +7,7 @@ class Blog extends Component {
         return (
             <div id="blog">
                 <Slider
-                    title="Blog"
+                    title="Formulario"
                     size="slider-small"
                 />
                 <div className="center">
@@ -16,7 +16,7 @@ class Blog extends Component {
                     </div>
                 </div>
                 <SideBar
-                    blog="true"
+                    blog="false"
                 />
             </div>
         );
